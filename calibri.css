@@ -1,6 +1,6 @@
 @font-face{
-  font-family: 'Calibri';
-  src:url('./Calibri.woff') format('woff');
+  font-family: 'My font';
+  src: url('./Calibri.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
