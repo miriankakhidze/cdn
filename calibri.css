@@ -12,3 +12,32 @@
     src: url('./Calibri.woff2') format('woff2');
 }
  */
+
+html{
+  zoom: 0.55;
+}
+html, body {
+  line-height: 1.5715;
+  font-family: 'Calibri';
+  margin: 0;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+@media print {
+  .page {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+.content p{
+  margin-bottom:0rem;
+  margin-top:0rem;
+  text-align: justify;
+}
+.paragraph{
+  font-weight: bold !important;
+}
+
